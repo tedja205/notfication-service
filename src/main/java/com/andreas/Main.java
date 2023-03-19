@@ -9,7 +9,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication
 @EntityScan("com.andreas.models")
 @ComponentScan("com.andreas.*")
-@EnableJpaRepositories("com.andreas.repositories")
 public class Main {
     public static void main(String[] args) {
         System.out.println("Starting");
